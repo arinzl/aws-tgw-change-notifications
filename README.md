@@ -9,6 +9,7 @@ Please see #TODO for detailed explaination.
 ## Deployment
 - Clone repo into folder
 - Run command 'Terraform init'
-- Optional Checkov check 
+- Optional Checkov check via  "checkov -d . --download-external-modules True"
 - Run command 'Terraform plan' 
 - Run command 'Terraform apply' and type 'yes' to confirm deployment
+

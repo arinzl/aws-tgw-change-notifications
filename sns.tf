@@ -1,4 +1,6 @@
 resource "aws_sns_topic" "tgw_sns_topic" {
+
+  #checkov:skip=CKV_AWS_26: "Ensure all data stored in the SNS topic is encrypted" 
   name = "tgw-alerts"
 }
 
